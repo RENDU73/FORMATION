@@ -1,6 +1,35 @@
-# Formation PAIE BTP 2026
+# Formations paie 2026
 
-Ce dépôt contient le module **« La conclusion du contrat de travail »**, conçu pour
+Ce dépôt contient deux supports de formation.
+
+## 1. Actualité paie juin – septembre 2026
+
+Journée de 6 heures pour les gestionnaires de paie : actualité de juin à septembre
+2026, rappels de dispositifs (activité partielle, rupture conventionnelle, IJSS,
+heures supplémentaires, télétravail) et séquence complète sur l'épargne salariale,
+avec 4 cas pratiques et 7 quiz.
+
+| Fichier | Contenu |
+|---|---|
+| `livrables/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.pptx` | Le support (63 diapositives, notes de l'animateur) |
+| `support/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.md` | Livret de l'animateur : déroulé, corrigés, réponses des quiz, sources, check-list de rentrée |
+
+Régénérer le support :
+
+```bash
+npm install pptxgenjs
+node scripts/generer_actualite_paie.js livrables
+```
+
+Le contenu est isolé dans `scripts/contenu_actualite_paie.js` (une entrée par
+diapositive) ; `scripts/generer_actualite_paie.js` porte les gabarits et la charte
+(couleurs du thème « Les essentiels du BTP », titres Cambria, texte Calibri). Le
+support est daté du 12 septembre 2026 : la liste des points à vérifier avant chaque
+animation figure en fin de livret.
+
+## 2. PAIE BTP 2026 – module « La conclusion du contrat de travail »
+
+Ce module **« La conclusion du contrat de travail »** est conçu pour
 compléter le support de formation *Les essentiels du BTP* (7 séquences, 124
 diapositives).
 
@@ -8,7 +37,7 @@ Le module s'intercale en **séquence 2 bis**, entre la séquence 2 (« L'embauch
 qui traite des formalités) et la séquence 3 (« Le brut »). Cette numérotation évite
 de renuméroter les séquences 3 à 7 du support existant.
 
-## Livrables
+### Livrables
 
 | Fichier | Contenu |
 |---|---|
@@ -21,14 +50,14 @@ d'origine : masque, thème, polices, couleurs, tableaux et pictogramme « attent
 sont ceux de la charte existante. Chaque diapositive comporte des **notes de
 l'animateur**.
 
-### Insérer le module dans un autre exemplaire du support
+#### Insérer le module dans un autre exemplaire du support
 
 Dans PowerPoint : `Accueil` → `Nouvelle diapositive` → `Réutiliser les
 diapositives`, sélectionner `MODULE_CONTRATS_DE_TRAVAIL_BTP_2026.pptx` et cocher
 **Conserver la mise en forme source**. Insérer après la diapositive « L'embauche :
 Exercice ».
 
-## Plan de la séquence
+### Plan de la séquence
 
 1. Intercalaire et sommaire de séquence
 2. Le contrat de travail, socle du paramétrage de la paie BTP
@@ -42,7 +71,7 @@ Exercice ».
 10. Les clauses qui pèsent sur le bulletin BTP, dont la DFS
 11. Tableau de synthèse, points de vigilance 2026, check-list et exercice
 
-## Régénérer les fichiers
+### Régénérer les fichiers
 
 ```bash
 python3 scripts/generer_module_contrats.py source/LES_ESSENTIELS_DU_BTP.pptx livrables/
@@ -57,7 +86,7 @@ le paquet.
 Dépendances : `python-pptx`, `lxml`, `defusedxml` (`pip install python-pptx
 markitdown[pptx]`).
 
-## À actualiser avant chaque animation
+### À actualiser avant chaque animation
 
 Les valeurs chiffrées évoluent chaque année. Vérifier notamment :
 
