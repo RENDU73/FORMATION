@@ -1,7 +1,7 @@
 # Actualité paie juin – septembre 2026 — livret de l'animateur
 
 Journée de formation de 6 heures destinée aux gestionnaires de paie. Support :
-`livrables/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.pptx` (63 diapositives, notes de
+`livrables/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.pptx` (64 diapositives, notes de
 l'animateur sur chaque diapositive).
 
 Situation des textes au **12 septembre 2026**. Avant chaque animation, vérifier les
@@ -14,8 +14,8 @@ points listés dans la section « À actualiser » en fin de document.
 | 09h00 | Accueil, quiz d'ouverture (5 vrai/faux) | 20 min | Équipes, comptage des points |
 | 09h20 | 1 – Le SMIC de juin et ses effets en cascade | 55 min | Cas pratique 1, quiz 1 |
 | 10h15 | Pause | 15 min | |
-| 10h30 | 2 – Absences, famille, retraite | 50 min | Quiz 2 |
-| 11h20 | 3 – Cotisations, DSN et contrôle | 55 min | Cas pratique 2, quiz 3 |
+| 10h30 | 2 – Absences, famille, retraite, jours de fractionnement | 55 min | Quiz 2 |
+| 11h25 | 3 – Cotisations, DSN et contrôle | 50 min | Cas pratique 2, quiz 3 |
 | 12h15 | Déjeuner | 75 min | |
 | 13h30 | 4 – L'été des juges : jurisprudence et ruptures | 60 min | Cas pratique 3, quiz 4 |
 | 14h30 | Pause | 15 min | |
@@ -113,7 +113,7 @@ en 2025).
 - **Quiz 1** : B (2 613,83 €), B (4,50 €, 15 % du plafond horaire), B (prime
   d'ancienneté exclue).
 - **Quiz 2** : C (naissance prévue à compter du 1er janvier 2026), B (refus CPAM
-  possible), B (62 ans 9 mois, 170 trimestres).
+  possible), B (1 jour de fractionnement), B (62 ans 9 mois, 170 trimestres).
 - **Quiz 3** : B (1er janvier et 1er juillet), B (assiette plafonnée), B (2 mois),
   B (le jugement se substitue à la contrainte).
 - **Quiz 4** : B (accord d'entreprise), B (perte du régime de faveur), B (vigilance
@@ -159,6 +159,9 @@ en 2025).
   https://www.previssima.fr/question-pratique/suspension-de-la-reforme-des-retraites-le-guide-pour-tout-comprendre-selon-votre-situation.html
 - Carrières longues, trimestres enfants (décret n° 2026-700 du 29 juillet 2026) :
   https://www.service-public.gouv.fr/particuliers/actualites/A19025
+- Jours de fractionnement : Code du travail art. L. 3141-17 à L. 3141-23 ;
+  https://www.legisocial.fr/actualites-sociales/3437-attribution-jours-fractionnement-conditions-remplir.html ;
+  Cass. soc. 5 mai 2021, n° 20-14.390 : Légifrance JURITEXT000043489895
 - Contrat de valorisation de l'expérience :
   https://www.legisocial.fr/actualites-sociales/7454-contrat-valorisation-experience-cve-nouveau-contrat-seniors.html
 
@@ -238,11 +241,12 @@ en 2025).
 6. Versement mobilité de chaque établissement contrôlé (1er juillet, 1er septembre).
 7. Taux de PAS de septembre intégrés ; CRM nominatifs traités sous deux mois.
 8. CRM 124 et CRM post-substitution archivés ; procédure de réponse sous deux mois.
-9. Compteurs d'annualisation : réduction du seuil de 35 h par semaine d'absence maladie.
-10. Rupture conventionnelle : contribution 40 %, minimum = indemnité de l'accord d'entreprise.
-11. Clients de 11 à 49 salariés : test bénéfice net fiscal ≥ 1 % du CA sur 3 exercices.
-12. PPV : dernières primes sous régime renforcé avant le 31 décembre 2026 ; codes DSN 904/905/906.
-13. Bulletin clarifié : basculer avant le 1er janvier 2027.
+9. Jours de fractionnement constatés au 31 octobre et crédités sur les compteurs de novembre.
+10. Compteurs d'annualisation : réduction du seuil de 35 h par semaine d'absence maladie.
+11. Rupture conventionnelle : contribution 40 %, minimum = indemnité de l'accord d'entreprise.
+12. Clients de 11 à 49 salariés : test bénéfice net fiscal ≥ 1 % du CA sur 3 exercices.
+13. PPV : dernières primes sous régime renforcé avant le 31 décembre 2026 ; codes DSN 904/905/906.
+14. Bulletin clarifié : basculer avant le 1er janvier 2027.
 
 ## À actualiser avant chaque animation
 

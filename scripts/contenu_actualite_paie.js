@@ -39,7 +39,7 @@ const SLIDES = [
       },
       {
         head: "Sécuriser",
-        text: "Réviser les dispositifs qui génèrent le plus d'erreurs : activité partielle, rupture conventionnelle, IJSS et maintien de salaire, heures supplémentaires, télétravail.",
+        text: "Réviser les dispositifs qui génèrent le plus d'erreurs : activité partielle, rupture conventionnelle, IJSS et maintien de salaire, jours de fractionnement, heures supplémentaires, télétravail.",
       },
       {
         head: "Maîtriser l'épargne salariale",
@@ -60,7 +60,7 @@ const SLIDES = [
       ["09h20", "Séquence 1 – Le SMIC de juin et ses effets en cascade"],
       ["10h15", "Pause"],
       ["10h30", "Séquence 2 – Absences, famille, retraite : ce qui change"],
-      ["11h20", "Séquence 3 – Cotisations, DSN et contrôle : la rentrée"],
+      ["11h25", "Séquence 3 – Cotisations, DSN et contrôle : la rentrée"],
       ["12h15", "Déjeuner"],
       ["13h30", "Séquence 4 – L'été des juges : jurisprudence et ruptures"],
       ["14h30", "Pause"],
@@ -248,8 +248,8 @@ const SLIDES = [
     num: "02",
     title: "Absences, famille, retraite : ce qui change",
     subtitle: "Congé supplémentaire de naissance, arrêts de travail au 1er septembre, suspension de la réforme des retraites",
-    duration: "50 min · 1 quiz",
-    notes: "Séquence 2 : 10h30 – 11h20.",
+    duration: "55 min · 1 quiz",
+    notes: "Séquence 2 : 10h30 – 11h25.",
   },
   {
     kind: "cards",
@@ -332,6 +332,36 @@ const SLIDES = [
   },
   {
     kind: "bullets",
+    title: "Rappel : les jours de fractionnement des congés payés",
+    bullets: [
+      "Congé principal : 24 jours ouvrables au plus (la 5e semaine n'ouvre jamais droit à fractionnement). Une fraction d'au moins 12 jours ouvrables continus, entre deux jours de repos hebdomadaire, doit être prise entre le 1er mai et le 31 octobre (art. L. 3141-18 et L. 3141-19).",
+      "Au-delà de ces 12 jours, le reliquat du congé principal (13e au 24e jour) pris en dehors de la période du 1er mai au 31 octobre ouvre droit à des jours supplémentaires : 2 jours ouvrables si au moins 6 jours sont pris hors période, 1 jour si 3 à 5 jours le sont (art. L. 3141-23, règle supplétive).",
+      "Le droit est dû quelle que soit l'origine du fractionnement, y compris à la demande du salarié ou lors d'une fermeture de l'entreprise : seule une renonciation expresse et individuelle du salarié, ou une dérogation par accord d'entreprise ou de branche, l'écarte.",
+      "Une clause du contrat de travail par laquelle le salarié renonce par avance à ses jours de fractionnement est sans effet (Cass. soc. 5 mai 2021, n° 20-14.390) : renonciation écrite, au cas par cas, après la naissance du droit.",
+      "En jours ouvrés, convertir (6 jours ouvrables = 5 jours ouvrés) : 3 ou 4 jours ouvrés hors période donnent 1 jour, 5 jours ouvrés ou plus donnent 2 jours ; l'accord collectif peut prévoir une règle plus favorable.",
+      "En paie : constater le droit au 31 octobre (clôture de la période de prise principale), créditer le compteur « CP » ou une ligne « fractionnement » sur le bulletin de novembre, et vérifier chaque année les salariés qui ont posé des congés hors période sans compteur ajusté.",
+    ],
+    side: {
+      heading: "Exemple",
+      lines: [
+        "Salarié en jours ouvrables, 30 jours acquis",
+        "12 jours du 3 au 17 août",
+        "6 jours en décembre (13e au 18e jour)",
+        "6 jours pris hors période → 2 jours",
+        "5e semaine (25e au 30e jour) : pas de droit",
+        "Compteur CP + 2 jours au 31 octobre",
+      ],
+    },
+    notes:
+      "Rappel de dispositif demandé par les participants : le fractionnement est la première source d'erreur sur les compteurs de "
+      + "congés en fin d'année. Vérifier en amont ce que prévoit chaque convention collective (certaines branches suppriment le "
+      + "droit, d'autres l'étendent).\n"
+      + "Sources : Code du travail art. L. 3141-17 à L. 3141-23 ; LégiSocial « Attribution des jours de fractionnement : les "
+      + "conditions à remplir » ; Cass. soc. 5 mai 2021, n° 20-14.390 (Légifrance JURITEXT000043489895).\n"
+      + "Question fréquente : les congés d'ancienneté ou conventionnels n'entrent pas dans le calcul, seul le congé principal légal compte.",
+  },
+  {
+    kind: "bullets",
     title: "Retraite : ce qui change au 1er septembre 2026",
     bullets: [
       "Suspension de la réforme de 2023 (LFSS 2026, art. 105) du 1er septembre 2026 au 1er janvier 2028 : le relèvement de l'âge légal et de la durée d'assurance est gelé.",
@@ -364,6 +394,12 @@ const SLIDES = [
         why: "Depuis le 1er septembre 2026, l'arrêt initial est limité à 31 jours sauf justification. L'employeur n'a pas à le réduire lui-même : il applique le maintien sur la base des IJ effectivement versées.",
       },
       {
+        q: "Un salarié en jours ouvrables prend 12 jours en juillet, 4 jours en février et sa 5e semaine en mars. Combien de jours de fractionnement ?",
+        options: ["Aucun, c'est lui qui a demandé les dates", "1 jour ouvrable", "2 jours ouvrables"],
+        answer: 1,
+        why: "4 jours du congé principal pris hors période (3 à 5 jours) = 1 jour ; la 5e semaine ne compte pas ; l'initiative du salarié est sans effet, sauf renonciation écrite expresse.",
+      },
+      {
         q: "Une salariée née en novembre 1964 pourra liquider sa retraite au taux plein avec :",
         options: ["63 ans et 171 trimestres", "62 ans et 9 mois et 170 trimestres", "64 ans et 172 trimestres"],
         answer: 1,
@@ -379,8 +415,8 @@ const SLIDES = [
     num: "03",
     title: "Cotisations, DSN et contrôle : la rentrée",
     subtitle: "Versement mobilité, AGS, prélèvement à la source, DSN de substitution, loi fraudes, décret procédures",
-    duration: "55 min · 1 cas pratique · 1 quiz",
-    notes: "Séquence 3 : 11h20 – 12h15.",
+    duration: "50 min · 1 cas pratique · 1 quiz",
+    notes: "Séquence 3 : 11h25 – 12h15.",
   },
   {
     kind: "table",

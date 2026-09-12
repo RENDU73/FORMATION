@@ -11,7 +11,7 @@ avec 4 cas pratiques et 7 quiz.
 
 | Fichier | Contenu |
 |---|---|
-| `livrables/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.pptx` | Le support (63 diapositives, notes de l'animateur) |
+| `livrables/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.pptx` | Le support (64 diapositives, notes de l'animateur) |
 | `support/ACTUALITE_PAIE_JUIN_SEPTEMBRE_2026.md` | Livret de l'animateur : déroulé, corrigés, réponses des quiz, sources, check-list de rentrée |
 
 Régénérer le support :
