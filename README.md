@@ -1,8 +1,37 @@
 # Formation PAIE BTP 2026
 
-Ce dépôt contient le module **« La conclusion du contrat de travail »**, conçu pour
-compléter le support de formation *Les essentiels du BTP* (7 séquences, 124
-diapositives).
+Ce dépôt contient deux supports construits sur la charte graphique du support de
+formation *Les essentiels du BTP* (7 séquences, 124 diapositives) :
+
+- le module **« La conclusion du contrat de travail »**, qui s'intercale dans ce
+  support (séquence 2 bis) ;
+- le support autonome **« Prime carburant 2026 et dispositifs de mobilité »**, qui
+  présente la prime carburant telle qu'elle s'applique en 2026 et rappelle les
+  dispositifs de mobilité domicile-travail avec le plafond d'exonération de chacun.
+
+## Support « Prime carburant 2026 et dispositifs de mobilité »
+
+| Fichier | Contenu |
+|---|---|
+| `livrables/PRIME_CARBURANT_ET_MOBILITES_2026.pptx` | Le support complet, 22 diapositives, avec les notes de l'animateur |
+| `support/PRIME_CARBURANT_ET_DISPOSITIFS_DE_MOBILITE_2026.md` | Support de cours et livret de l'animateur : références, tableaux de plafonds, exemples chiffrés, corrigé de l'exercice |
+
+Plan : contexte 2026 et carte des dispositifs ; prime carburant (définition,
+conditions de droit commun, changements 2026, mise en œuvre en paie) ; abonnements de
+transports publics (50 % obligatoire, 75 % exonérés en 2025-2026) ; forfait mobilités
+durables ; cumuls et exemples chiffrés ; indemnités kilométriques et avantages en
+nature liés à la mobilité ; aide de l'État « grands rouleurs » ; synthèse des
+plafonds ; points de vigilance ; exercice ; sources.
+
+```bash
+python3 scripts/generer_support_mobilites.py source/LES_ESSENTIELS_DU_BTP.pptx livrables/
+```
+
+Le contenu est isolé dans `scripts/contenu_mobilites.py`. Les valeurs 2026 de la
+prime carburant (plafond de 600 €, conditions suspendues) reposent sur le communiqué
+du BOSS du 6 août 2026 : vérifier la publication des textes avant chaque animation.
+
+## Module « La conclusion du contrat de travail »
 
 Le module s'intercale en **séquence 2 bis**, entre la séquence 2 (« L'embauche »,
 qui traite des formalités) et la séquence 3 (« Le brut »). Cette numérotation évite
@@ -60,6 +89,10 @@ markitdown[pptx]`).
 ## À actualiser avant chaque animation
 
 Les valeurs chiffrées évoluent chaque année. Vérifier notamment :
+
+- pour le support mobilité : la publication du décret et de l'arrêté 2026 sur la
+  prime carburant, une éventuelle prorogation en loi de finances pour 2027, les
+  montants des avantages en nature véhicule et borne, le barème kilométrique ;
 
 - le **taux de la déduction forfaitaire spécifique** applicable à l'année de la paie
   (calendrier de sortie du BTP : baisse d'un point par an depuis 2024) — source BOSS ;
